@@ -13,9 +13,13 @@ hr {
 }
 
 h1 {
-    color: #810000;
+  color: #d6a41a;
 }
 
 h3 {
-    color: #810000;
+  color: #d6a41a;
+}
+
+a:hover {
+  background-color: red;
 }
