@@ -14,9 +14,9 @@ hr {
 
 h1,
 h2,
-h3, 
-h4, 
-h5, 
+h3,
+h4,
+h5,
 h6 {
   color: #d6a41a;
 }
@@ -26,7 +26,7 @@ a:hover {
 }
 
 .round-img {
-    border-radius: 50%;    
+  border-radius: 50%;
 }
 
 .content__heading {
@@ -35,20 +35,18 @@ a:hover {
 }
 
 .container {
- border: solid black;
- height: 480px;
- width: 500px;
- display: flex;
- flex-direction: column;
+  border: solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container__content {
- border: solid rgb(255, 209, 3);
- margin: 15px;
- height: 450px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+  margin: 15px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content__header {
@@ -56,18 +54,18 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
-.content__body { 
-  border: solid rgb(17, 0, 255);
-  height: 300px;
+.content__body {
+  min-height: 300px;
   display: flex;
   justify-content: space-between;
 }
 
 .body__aside {
   border: solid pink;
-  width: 130px;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +73,7 @@ a:hover {
 
 .body__article {
   border: solid sandybrown;
-  width: 300px;
+  width: calc(70% - 30px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,28 +82,22 @@ a:hover {
 .article__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 105px;
+  padding-top: 120px;
+  padding-bottom: 30px;
 }
 
-.image {
-  width: 300px;
+.article__title {
+  padding-top: 13px;
+}
+
+.image__container {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
-.image__1 {
-  width: 80px;
-  height: 105px;
-}
-
-.image__2 {
-  width: 80px;
-  height: 105px;
-}
-
-.image__3 {
+.image {
   width: 80px;
   height: 105px;
 }
@@ -120,4 +112,16 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .image__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .image {
+    margin: 10px;
+  }
 }
