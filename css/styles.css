@@ -52,7 +52,7 @@ a:hover {
 }
 
 .content__header {
-  border: solid rgb(0, 255, 21);
+  border: solid rgb(42, 190, 55);
   display: flex;
   justify-content: center;
   align-items: center;
