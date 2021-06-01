@@ -29,6 +29,8 @@ a:hover {
   border-radius: 50%;
 }
 
+/*       TEST-2       */
+
 .content__heading {
   color: white;
   margin: 0;
@@ -124,4 +126,168 @@ a:hover {
   .image {
     margin: 10px;
   }
+}
+
+/*    TEST-3      */
+
+.sign-in__body {
+  margin: 0;
+  background-color: #fcecdd;
+}
+
+.header__fixed {
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header {
+  background-color: #ffc288;
+  padding: 0 15px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header__sign-in {
+  align-self: flex-start;
+  color: white;
+}
+
+.signinbtn {
+  background-color: #fea82f;
+  width: 80px;
+  height: 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.nightBtn {
+  background-color: #fea82f;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  top: 20px;
+  right: 100px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+.modal-content {
+  width: 500px;
+  height: 230px;
+  background-color: #fcecdd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.login__img {
+  width: 50px;
+  height: 50px;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+  display: block;
+  margin: 15px auto;
+  border-color: #fea82f;
+  border-radius: 5px;
+  opacity: 0.8;
+  background-color: #fcecdd;
+}
+
+.close__button {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 35px;
+  color: #fea82f;
+  opacity: 0.8;
+  transform: rotate(45deg);
+}
+
+.close__button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*<p>*/
+
+.lorem {
+  color: black;
+}
+
+.lorem-ipsum {
+  margin: 86.225px 15px 0 15px;
+}
+
+/*   night theme   */
+
+.night-body {
+  background-color: #393e46;
+}
+
+.night-body header {
+  background-color: #aad8d3;
+}
+
+.night-body .signinbtn {
+  background-color: #00adb5;
+}
+
+.night-body .nightBtn {
+  background-color: #00adb5;
+}
+
+.night-body .close__button {
+  color: #00adb5;
+}
+
+.night-body input {
+  background-color: #aad8d3;
+  border-color: #00adb5;
+}
+
+.night-body p {
+  color: white;
+}
+
+.night-body  .modal-content {
+  background-color: #aad8d3;
 }
