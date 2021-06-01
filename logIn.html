@@ -11,11 +11,12 @@
   </head>
   <body class="sign-in__body">
     <div class="header__fixed">
-      <header>
+      <header class="night__header">
         <div class="header__content">
           <h2 class="header__sign-in">Sign In TEST-3</h2>
+          <button class="nightBtn" type="submit">Night/Day</button>
           <div class="hover__sign-in">
-            <button type="submit" class="signinbtn">Sign in</button>
+            <button id='signInBtn' type="submit" class="signinbtn">Sign in</button>
         </div>
       </header>
     </div>
@@ -215,14 +216,15 @@
     </div>
     <div class="bg-modal">
       <div class="modal-content">
-        <img class="login__img" src="images/login.png" alt="">
+        <img id='login-image' class="login__img" src="images/login.png" alt="">
         <form action="">
-          <input type="text" placeholder="E-mail">
-          <input type="text" placeholder="Password">
+          <input class='nightInput' type="email" placeholder="E-mail">
+          <input class='nightInput' type="password" placeholder="Password">
           <button type="submit" class="signinbtn">Submit</button>
           <div class="close__button">+</div>
         </form>
       </div>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
