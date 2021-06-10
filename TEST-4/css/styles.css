@@ -1,0 +1,501 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background: linear-gradient(#ffed99, #f6b8b8);
+  padding: 50px 0 50px 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left-column {
+  margin-right: 28px;
+}
+
+.right-column {
+  margin-left: 28px;
+}
+
+/* JavaScript */
+
+.invisible-container {
+  display: none;
+}
+
+/* Kangaroo Valley Safari container */
+
+.container-left-first {
+  background-color: white;
+  width: 344px;
+  position: relative;
+  border-radius: 4px;
+  display: block;
+}
+
+.invisible-container {
+  display: none;
+}
+
+.first-container-img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.first-top-header {
+  position: absolute;
+  margin: 0;
+  width: 242px;
+  height: 24px;
+
+  font-family: Roboto;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+
+  top: 137px;
+  left: 18px;
+  bottom: 15px;
+  right: 84px;
+}
+
+.first-bottom p {
+  width: 311px;
+  height: 48px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  margin-left: 18px;
+  margin-top: 0;
+}
+
+hr {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.12);
+  margin: 0;
+}
+
+.first-buttons {
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+.first-buttons button {
+  color: #009688;
+  text-decoration: none;
+  position: relative;
+  margin: 0 24px 0 20px;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* El Pooch container */
+
+.container-left-second {
+  background-color: white;
+  width: 344px;
+  height: 136px;
+  border-radius: 4px;
+}
+
+.second-image {
+  float: left;
+}
+
+.second-img {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.second-text {
+  padding-left: 87px;
+}
+
+.container-left-second h1 {
+  margin-top: 32px;
+  padding-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container-left-second h3 {
+  margin: 0 0 19.5px 0;
+  padding-left: 19px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.543846);
+}
+
+.second-buttons {
+  margin-top: 17px;
+}
+
+.second-buttons button {
+  color: #009688;
+  text-decoration: none;
+  position: relative;
+  border: none;
+  padding-left: 21px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Welcome Back! container */
+
+.container-left-third {
+  background-color: white;
+  width: 344px;
+  height: 208px;
+  position: relative;
+  margin-top: 32px;
+  border-radius: 4px;
+}
+
+.container-left-third h1 {
+  position: absolute;
+  top: 22px;
+  right: 161px;
+  bottom: 157px;
+  left: 18px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: #009688;
+  font-weight: 400;
+}
+
+.third-top p {
+  width: 204px;
+  height: 48px;
+  padding: 61px 0 0 19px;
+  margin-bottom: 45.5px;
+}
+
+.third-buttons {
+  margin-left: 32.5px;
+  margin-top: 17px;
+}
+
+.third-buttons button {
+  color: #009688;
+  text-decoration: none;
+  position: relative;
+  border: none;
+  padding: 0;
+  margin-right: 40px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+/* Pre-fab Homes container */
+
+.container-right-first {
+  width: 344px;
+  height: 224px;
+  background-color: white;
+  position: relative;
+  border-radius: 4px;
+}
+
+.right-first-img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.container-right-first h1 {
+  width: 161px;
+  height: 24px;
+  margin: 0;
+  padding-left: 19px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 137px;
+}
+
+.right-first-buttons {
+  text-align: right;
+  margin-right: 14px;
+  margin-top: 10px;
+}
+
+.right-first-buttons a {
+  margin-left: 32px;
+}
+
+/* Second section which contains two sub-containers */
+
+.container-right-second {
+  display: flex;
+  width: 344px;
+  height: 216px;
+  margin-top: 25px;
+}
+
+/* Favorite Road Trips container */
+
+.right-second-left {
+  width: 168px;
+  margin-right: 8px;
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.second-left-img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.second-left-top h1 {
+  margin: 0;
+  padding-left: 18px;
+  width: 128px;
+  height: 48px;
+  position: absolute;
+  top: 100px;
+  bottom: 63px;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.second-left-buttons {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-left-buttons a {
+  margin: 0;
+}
+
+/* Best Airlines container */
+
+.right-second-right {
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.second-right-img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.second-right-top h1 {
+  margin: 0;
+  padding-left: 18px;
+  width: 128px;
+  height: 48px;
+  position: absolute;
+  top: 100px;
+  bottom: 63px;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.second-right-buttons {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Third container from the right column */
+
+.container-right-third {
+  display: flex;
+}
+
+/* Yuna tickets container */ 
+
+.left-top-container {
+  background-color: #3e50b4;
+  width: 168px;
+  height: 160px;
+  position: relative;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.left-top-heading {
+  margin-top: 25px;
+}
+
+.left-top-heading h1 {
+  width: 123px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  padding: 18px 29px 28.5px 16px;
+  margin-bottom: 0;
+}
+
+.left-top-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  border: none;
+  margin-top: 10px;
+  background-color: #3e50b4;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+
+/* Clean Desk container */
+
+.left-bottom-container {
+  background-color: #455a64;
+  width: 168px;
+  height: 50px;
+  margin-top: 16px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.left-bottom-container h1 {
+  margin: 0;
+  width: 123px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 13px;
+  right: 29px;
+  bottom: 14;
+  left: 16px;
+}
+
+/* Grosseries container */
+
+.right-third-right_container {
+  background-color: #36474f;
+  border-radius: 4px;
+  margin-top: 25px;
+  width: 168px;
+  height: 216px;
+}
+
+.right-third-right_container h4 {
+  margin: 0;
+  width: 53px;
+  height: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+  padding: 12.5px 0 0 16px;
+}
+
+/* Checkbox */
+
+.wrapper-block-input {
+  margin-top: 23px;
+}
+
+.block-input {
+  margin-left: 16px;
+  margin-bottom: 15px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+
+label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #36474f;
+  vertical-align: middle;
+  margin-left: -20px;
+  margin-right: 14px;
+  border: 3px solid #eeeeee;
+  border-radius: 4px;
+  transition: 1s;
+}
+
+input[type="checkbox"]:checked + label::before {
+  content: "";
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQzNHB0IiB2aWV3Qm94PSIwIC02NSA0MzQuNjc3MzMgNDM0IiB3aWR0aD0iNDM0cHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTE1Mi4wMDM5MDYgMzA0LjM0Mzc1Yy01LjQ2MDkzNyAwLTEwLjkyMTg3NS0yLjA4OTg0NC0xNS4wODIwMzEtNi4yNWwtMTMwLjY2NDA2My0xMzAuNjY3OTY5Yy04LjM0Mzc1LTguMzM5ODQzLTguMzQzNzUtMjEuODI0MjE5IDAtMzAuMTY0MDYyIDguMzM5ODQ0LTguMzM5ODQ0IDIxLjgyMDMxMy04LjMzOTg0NCAzMC4xNjQwNjMgMGwxMTUuNTgyMDMxIDExNS41ODIwMzEgMjQ2LjI1MzkwNi0yNDYuMjVjOC4zMzk4NDQtOC4zMzk4NDQgMjEuODIwMzEzLTguMzM5ODQ0IDMwLjE2NDA2MyAwIDguMzM5ODQ0IDguMzQzNzUgOC4zMzk4NDQgMjEuODI0MjE5IDAgMzAuMTY3OTY5bC0yNjEuMzMyMDMxIDI2MS4zMzIwMzFjLTQuMTYwMTU2IDQuMTYwMTU2LTkuNjI1IDYuMjUtMTUuMDg1OTM4IDYuMjV6bTAgMCIgZmlsbD0iIzIxOTZmMyIvPjwvc3ZnPg==);
+  background-size: 100%;
+}
+
+/* Adaptability */
+
+@media screen and (max-width: 815px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-left {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+  .container-right {
+    margin-left: 0;
+  }
+}
+
+/* Custom scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: linear-gradient(#ffed99, #f6b8b8);
+  opacity: 0;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #36474f;
+}
