@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: pink;
+
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    padding: 0.5rem 1rem;
+    
+    font-family: 'Indie Flower', cursive;
+    font-size: 4rem;
+
+    color: white;
+}
+
